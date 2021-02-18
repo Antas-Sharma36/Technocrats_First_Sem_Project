@@ -213,8 +213,8 @@ def learn_python():
 ################################################################################################################
 
 def play_music():
-    music_dir = 'C:\\Users\\DELL\\Desktop\\TheDarkSideOfPhobos\\Disk One - Phobos'
-    songs = os.listdir(music_dir)
+    music_dir = 'C:\\Users\\DELL\\Desktop\\TheDarkSideOfPhobos\\Disk One - Phobos'  # This was the file directory where my music was located.
+    songs = os.listdir(music_dir)                                                   # Please change it to wherever your music files are. 
     print(songs)    
     os.startfile(os.path.join(music_dir, songs[0]))        
 
@@ -274,14 +274,14 @@ def say_joke():
 
 def corona_news():
     corona_advice = '''Coronaviruses are a group of related RNA viruses that cause diseases in mammals and birds.
-                    The first known human infections were in Wuhan, Hubei, China.
-                    Most common symptoms: fever, dry cough, tiredness.
-                    To prevent the spread of COVID-19: 
-                    Clean your hands often. Use soap and water, or an alcohol-based hand rub.
-                    Maintain a safe distance from anyone who is coughing or sneezing.
-                    Wear a mask when physical distancing is not possible.
-                    Medical treatments:
-                    If you have mild symptoms and are otherwise healthy, self-isolate and contact your medical provider or a COVID-19 information line for advice.'''
+    The first known human infections were in Wuhan, Hubei, China.
+    Most common symptoms: fever, dry cough, tiredness.
+    To prevent the spread of COVID-19: 
+    Clean your hands often. Use soap and water, or an alcohol-based hand rub.
+    Maintain a safe distance from anyone who is coughing or sneezing.
+    Wear a mask when physical distancing is not possible.
+    Medical treatments:
+    If you have mild symptoms and are otherwise healthy, self-isolate and contact your medical provider or a COVID-19 information line for advice.'''
     speak(corona_advice) 
 
 # Speak some coronavirus details and prevention
@@ -290,7 +290,7 @@ def corona_news():
 
 def feeling_depressed():
     advice = '''We know this is a tough time , you should consult your local psychiatrist and for more help 
-             contact - Toll Free : 1800 233 3330 , WEBSITE : http://www.jeevanaastha.com/ EMAIL : help@jeevanaastha.com''' 
+    contact - Toll Free : 1800 233 3330 , WEBSITE : http://www.jeevanaastha.com/ EMAIL : help@jeevanaastha.com''' 
     speak(advice)    
 
 # Gives helpine details for depression
@@ -317,7 +317,7 @@ def about_us():
 
 def about_program():
     details_me = '''I am Me6 created by the technocrats. I am a voice assistant. 
-                My function is to help you with your day to day tasks via voice communication'''   
+    My function is to help you with your day to day tasks via voice communication'''   
     speak(details_me)    
 
 # Tell(Speak) about itself 
@@ -349,30 +349,31 @@ def create_password():
 ################################################################################################################
 
 def features():
-    features = '''1. Wish me (goodafternoon, goodevening, goodmorning)
-               2. Set alarm
-               3. Send email
-               4. Search on youtube
-               5. Search on Chrome
-               6. Search on wikipedia
-               7. Take a screenshot
-               8. Create a random password
-               9. Roll a die
-               10. Toss a coin
-               11. Current Time
-               12. News
-               13. Weather
-               14. Help for loneliness
-               15. Feeling demotivated
-               16. Tell a joke
-               17. Coronavirus
-               18. Help for Depression
-               19. Who are we
-               20. Who are you
-               21. Shut down
-               22. Restart
-               23. Sleep
-               24. Stop'''
+    features = '''I can do the folloeing tasks - 
+    1. Wish me (goodafternoon, goodevening, goodmorning)
+    2. Set alarm
+    3. Send email
+    4. Search on youtube
+    5. Search on Chrome
+    6. Search on wikipedia
+    7. Take a screenshot
+    8. Create a random password
+    9. Roll a die
+    10. Toss a coin
+    11. Current Time
+    12. News
+    13. Weather
+    14. Help for loneliness/Sadness
+    15. Feeling demotivated
+    16. Tell a joke
+    17. Coronavirus
+    18. Help for Depression
+    19. Who are we
+    20. Who are you
+    21. Shut down
+    22. Restart
+    23. Sleep
+    24. Stop'''
     print(features)   
 
 # Display features of the program
