@@ -174,7 +174,7 @@ def send_email():
         server = smtplib.SMTP('smtp.gmail.com', 587)
         server.ehlo()
         server.starttls()
-        server.login('ghijklma507@gmail.com', '1234@#$df')
+        server.login('ghijklma507@gmail.com', 'password')     # Enter password before running the program 
         server.sendmail('ghijklma507@gmail.com', to, content)
         server.close()
         speak("Email has been sent!")
@@ -192,7 +192,7 @@ def feeling_sad():
    y1 = x.strftime('%H')
    y2 = x.strftime('%M')
    y3=int(y2)+1
-   pywhatkit.sendwhatmsg("+917027500466",msg,int(y1),int(y3))  
+   pywhatkit.sendwhatmsg("Enter Number here",msg,int(y1),int(y3))  
 
 # Sends a whatsapp message to the user's friend to prevent sadness
 
