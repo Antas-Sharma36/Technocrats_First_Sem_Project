@@ -15,7 +15,7 @@ Before running the program -
 
 
 
-P.S. - The Documentation is in the HELP file.
+P.S. - The Documentation is in the **HELP** file.
 
 
 
