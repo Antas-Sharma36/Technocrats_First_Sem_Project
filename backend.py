@@ -103,7 +103,7 @@ def check_alarm():
        speak("Hello") 
        i += 1
        #Play alarm music here
-       music_dir = 'C:\\Users\\DELL\\Desktop\\TheDarkSideOfPhobos\\Disk One - Phobos'
+       music_dir = 'Enter music Directory here'
        songs = os.listdir(music_dir)
        os.startfile(os.path.join(music_dir, songs[0]))
 
@@ -174,8 +174,8 @@ def send_email():
         server = smtplib.SMTP('smtp.gmail.com', 587)
         server.ehlo()
         server.starttls()
-        server.login('ghijklma507@gmail.com', 'password')     # Enter password before running the program 
-        server.sendmail('ghijklma507@gmail.com', to, content)
+        server.login('email', 'password')     # Enter password before running the program 
+        server.sendmail('email', to, content)
         server.close()
         speak("Email has been sent!")
     except Exception as e:
@@ -213,8 +213,8 @@ def learn_python():
 ################################################################################################################
 
 def play_music():
-    music_dir = 'C:\\Users\\DELL\\Desktop\\TheDarkSideOfPhobos\\Disk One - Phobos'  # This was the file directory where my music was located.
-    songs = os.listdir(music_dir)                                                   # Please change it to wherever your music files are. 
+    music_dir = 'Enter music Directory here'  
+    songs = os.listdir(music_dir)                                                   
     print(songs)    
     os.startfile(os.path.join(music_dir, songs[0]))        
 
