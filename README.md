@@ -13,9 +13,9 @@ Before running the program -
 
 **In lines 177,178 - please give an email id and the password.**
 
+For running the program, run the **main.py** file only.  
 
-
-P.S. - **Some functions may require the internet to work**.
+P.S. - **For some features the internet will be required.**
 
 
 
